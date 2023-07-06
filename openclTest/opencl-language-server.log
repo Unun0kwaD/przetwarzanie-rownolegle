@@ -1,0 +1,1526 @@
+
+----------------------------------------------------------------
+--------------------2023-06-01 16:19:25--------------------
+----------------------------------------------------------------
+
+:283 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:464 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:464 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:464 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:464 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:464 INF Run:297 Setting up...
+:464 TRE RegisterMethodCallback:22 #jrpc Set callback for method: initialize
+:464 TRE RegisterMethodCallback:22 #jrpc Set callback for method: initialized
+:464 TRE RegisterMethodCallback:22 #jrpc Set callback for method: shutdown
+:464 TRE RegisterMethodCallback:22 #jrpc Set callback for method: exit
+:464 TRE RegisterMethodCallback:22 #jrpc Set callback for method: textDocument/didOpen
+:464 TRE RegisterMethodCallback:22 #jrpc Set callback for method: textDocument/didChange
+:464 TRE RegisterMethodCallback:22 #jrpc Set callback for method: workspace/didChangeConfiguration
+:464 TRE RegisterInputCallback:28 #jrpc Set callback for client responds
+:464 TRE RegisterOutputCallback:34 #jrpc Set output callback
+:464 INF Run:346 Listening...
+:464 DBG Consume:47 #jrpc 
+:464 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:464 DBG Consume:50 Content-Length: 5997
+:464 DBG Consume:51 {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":49188,"clientInfo":{"name":"Visual Studio Code","version":"1.78.2"},"locale":"en","rootPath":"/home/pawelm/Semestr_6/Przetwarzanie_rownoległe/projekt","rootUri":"file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"],"failureHandling":"textOnlyTransactional","normalizesLineEndings":true,"changeAnnotationSupport":{"groupsOnLabel":true}},"configuration":true,"didChangeWatchedFiles":{"dynamicRegistration":true,"relativePatternSupport":true},"symbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"tagSupport":{"valueSet":[1]},"resolveSupport":{"properties":["location.range"]}},"codeLens":{"refreshSupport":true},"executeCommand":{"dynamicRegistration":true},"didChangeConfiguration":{"dynamicRegistration":true},"workspaceFolders":true,"semanticTokens":{"refreshSupport":true},"fileOperations":{"dynamicRegistration":true,"didCreate":true,"didRename":true,"didDelete":true,"willCreate":true,"willRename":true,"willDelete":true},"inlineValue":{"refreshSupport":true},"inlayHint":{"refreshSupport":true},"diagnostics":{"refreshSupport":true}},"textDocument":{"publishDiagnostics":{"relatedInformation":true,"versionSupport":false,"tagSupport":{"valueSet":[1,2]},"codeDescriptionSupport":true,"dataSupport":true},"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"contextSupport":true,"completionItem":{"snippetSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"deprecatedSupport":true,"preselectSupport":true,"tagSupport":{"valueSet":[1]},"insertReplaceSupport":true,"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]},"labelDetailsSupport":true},"insertTextMode":2,"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]},"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"dynamicRegistration":true,"contentFormat":["markdown","plaintext"]},"signatureHelp":{"dynamicRegistration":true,"signatureInformation":{"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true},"activeParameterSupport":true},"contextSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true,"tagSupport":{"valueSet":[1]},"labelSupport":true},"codeAction":{"dynamicRegistration":true,"isPreferredSupport":true,"disabledSupport":true,"dataSupport":true,"resolveSupport":{"properties":["edit"]},"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"honorsChangeAnnotations":false},"codeLens":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true,"prepareSupportDefaultBehavior":1,"honorsChangeAnnotations":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"colorProvider":{"dynamicRegistration":true},"foldingRange":{"dynamicRegistration":true,"rangeLimit":5000,"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"declaration":{"dynamicRegistration":true,"linkSupport":true},"selectionRange":{"dynamicRegistration":true},"callHierarchy":{"dynamicRegistration":true},"semanticTokens":{"dynamicRegistration":true,"tokenTypes":["namespace","type","class","enum","interface","struct","typeParameter","parameter","variable","property","enumMember","event","function","method","macro","keyword","modifier","comment","string","number","regexp","operator","decorator"],"tokenModifiers":["declaration","definition","readonly","static","deprecated","abstract","async","modification","documentation","defaultLibrary"],"formats":["relative"],"requests":{"range":true,"full":{"delta":true}},"multilineTokenSupport":false,"overlappingTokenSupport":false,"serverCancelSupport":true,"augmentsSyntaxTokens":true},"linkedEditingRange":{"dynamicRegistration":true},"typeHierarchy":{"dynamicRegistration":true},"inlineValue":{"dynamicRegistration":true},"inlayHint":{"dynamicRegistration":true,"resolveSupport":{"properties":["tooltip","textEdits","label.tooltip","label.location","label.command"]}},"diagnostic":{"dynamicRegistration":true,"relatedDocumentSupport":false}},"window":{"showMessage":{"messageActionItem":{"additionalPropertiesSupport":true}},"showDocument":{"support":true},"workDoneProgress":true},"general":{"staleRequestSupport":{"cancel":true,"retryOnContentModified":["textDocument/semanticTokens/full","textDocument/semanticTokens/range","textDocument/semanticTokens/full/delta"]},"regularExpressions":{"engine":"ECMAScript","version":"ES2020"},"markdown":{"parser":"marked","version":"1.1.0"},"positionEncodings":["utf-16"]},"notebookDocument":{"synchronization":{"dynamicRegistration":true,"executionSummarySupport":true}}},"initializationOptions":{"configuration":{"buildOptions":[],"deviceID":0,"maxNumberOfProblems":100}},"trace":"off","workspaceFolders":[{"uri":"file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt","name":"projekt"}]}}
+:464 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:464 DBG Consume:53 #jrpc 
+:464 DBG OnInitialize:184 #jrpc Tracing options: is verbose: no, is on: no
+:464 DBG FireMethodCallback:267 #jrpc Calling handler for method: initialize
+:464 DBG OnInitialize:88 #lsp Received 'initialize' request
+:464 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:464 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:464 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:464 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:464 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:464 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:464 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:464 DBG Write:131 #jrpc 
+:464 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:464 DBG Write:133 Content-Length: 157
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":0,"result":{"capabilities":{"textDocumentSync":{"openClose":true,"change":1,"willSave":false,"willSaveWaitUntil":false,"save":false}}},"jsonrpc":"2.0"}
+:464 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:464 DBG Write:135 #jrpc 
+:818 DBG Consume:47 #jrpc 
+:818 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:818 DBG Consume:50 Content-Length: 52
+:818 DBG Consume:51 {"jsonrpc":"2.0","method":"initialized","params":{}}
+:818 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:818 DBG Consume:53 #jrpc 
+:818 DBG FireMethodCallback:267 #jrpc Calling handler for method: initialized
+:818 DBG OnInitialized:145 #lsp Received 'initialized' message
+:818 DBG Write:131 #jrpc 
+:818 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:818 DBG Write:133 Content-Length: 209
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"67142574952b728d7a21e5421e5a9b68","method":"client/registerCapability","params":{"registrations":[{"id":"e2ec18037d1f537bde8b1996a79bd7f2","method":"workspace/didChangeConfiguration"}]},"jsonrpc":"2.0"}
+:818 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:818 DBG Write:135 #jrpc 
+:857 DBG Consume:47 #jrpc 
+:857 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:857 DBG Consume:50 Content-Length: 71
+:857 DBG Consume:51 {"jsonrpc":"2.0","id":"67142574952b728d7a21e5421e5a9b68","result":null}
+:857 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:857 DBG Consume:53 #jrpc 
+:857 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:857 DBG OnRespond:268 #lsp Received client respond
+:464 DBG Consume:47 #jrpc 
+:464 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:464 DBG Consume:50 Content-Length: 64
+:464 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:464 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:464 DBG Consume:53 #jrpc 
+:464 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:464 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:515 DBG Consume:47 #jrpc 
+:515 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:515 DBG Consume:50 Content-Length: 88
+:515 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:515 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:515 DBG Consume:53 #jrpc 
+:515 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:515 DBG GetConfiguration:66 #lsp Make configuration request
+:515 DBG Write:131 #jrpc 
+:515 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:515 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"7dc11651aa657571f155bcaf581577e3","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:515 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:515 DBG Write:135 #jrpc 
+:628 DBG Consume:47 #jrpc 
+:628 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:628 DBG Consume:50 Content-Length: 77
+:628 DBG Consume:51 {"jsonrpc":"2.0","id":"7dc11651aa657571f155bcaf581577e3","result":[[],100,0]}
+:628 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:629 DBG Consume:53 #jrpc 
+:629 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:629 DBG OnRespond:268 #lsp Received client respond
+:629 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:629 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:629 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:629 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:629 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:629 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:629 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:629 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:567 DBG Consume:47 #jrpc 
+:567 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:567 DBG Consume:50 Content-Length: 446
+:567 DBG Consume:51 {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/kernel.cl","languageId":"opencl","version":1,"text":"__kernel void elementwise_add(__global const float* inputA, __global const float* inputB, __global float* output, const int size) {\n    int i = get_global_id(0);\n    if (i < size) {\n        output[i] = inputA[i] + inputB[i];\n    }\n}\n"}}}
+:567 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:567 DBG Consume:53 #jrpc 
+:567 DBG FireMethodCallback:267 #jrpc Calling handler for method: textDocument/didOpen
+:567 DBG OnTextOpen:198 #lsp Received 'textOpen' message
+:567 DBG BuildDiagnosticsRespond:176 Converted uri 'file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/kernel.cl' to path '/home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/kernel.cl'
+:567 DBG Get:247 #diagnostics Getting diagnostics...
+:568 DBG BuildSource:173 #diagnostics Building program with options: 
+:837 TRE Get:259 #diagnostics BuildLog:
+
+:837 DBG Write:131 #jrpc 
+:837 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:837 DBG Write:133 Content-Length: 174
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"method":"textDocument/publishDiagnostics","params":{"uri":"file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/kernel.cl","diagnostics":[]},"jsonrpc":"2.0"}
+:837 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:837 DBG Write:135 #jrpc 
+:537 DBG Consume:47 #jrpc 
+:537 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:537 DBG Consume:50 Content-Length: 64
+:537 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:537 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:537 DBG Consume:53 #jrpc 
+:537 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:537 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:585 DBG Consume:47 #jrpc 
+:585 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:585 DBG Consume:50 Content-Length: 88
+:585 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:585 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:585 DBG Consume:53 #jrpc 
+:585 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:585 DBG GetConfiguration:66 #lsp Make configuration request
+:585 DBG Write:131 #jrpc 
+:585 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:585 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"bac8eb6e16f3dd6b30c983d39b8ef34c","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:585 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:585 DBG Write:135 #jrpc 
+:595 DBG Consume:47 #jrpc 
+:595 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:595 DBG Consume:50 Content-Length: 77
+:595 DBG Consume:51 {"jsonrpc":"2.0","id":"bac8eb6e16f3dd6b30c983d39b8ef34c","result":[[],100,0]}
+:595 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:595 DBG Consume:53 #jrpc 
+:595 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:595 DBG OnRespond:268 #lsp Received client respond
+:595 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:595 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:595 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:595 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:595 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:595 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:595 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:595 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:621 DBG Consume:47 #jrpc 
+:621 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:621 DBG Consume:50 Content-Length: 64
+:621 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:621 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:621 DBG Consume:53 #jrpc 
+:621 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:621 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:659 DBG Consume:47 #jrpc 
+:659 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:659 DBG Consume:50 Content-Length: 88
+:659 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:659 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:659 DBG Consume:53 #jrpc 
+:659 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:659 DBG GetConfiguration:66 #lsp Make configuration request
+:659 DBG Write:131 #jrpc 
+:659 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:659 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"680fb9691302383ec405a7dbf9141f43","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:659 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:659 DBG Write:135 #jrpc 
+:670 DBG Consume:47 #jrpc 
+:670 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:670 DBG Consume:50 Content-Length: 77
+:670 DBG Consume:51 {"jsonrpc":"2.0","id":"680fb9691302383ec405a7dbf9141f43","result":[[],100,0]}
+:670 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:670 DBG Consume:53 #jrpc 
+:670 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:670 DBG OnRespond:268 #lsp Received client respond
+:670 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:670 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:670 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:670 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:670 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:670 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:670 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:670 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:754 DBG Consume:47 #jrpc 
+:754 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:754 DBG Consume:50 Content-Length: 64
+:754 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:754 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:754 DBG Consume:53 #jrpc 
+:754 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:754 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:754 DBG Consume:47 #jrpc 
+:754 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:754 DBG Consume:50 Content-Length: 88
+:754 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:754 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:754 DBG Consume:53 #jrpc 
+:754 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:754 DBG GetConfiguration:66 #lsp Make configuration request
+:754 DBG Write:131 #jrpc 
+:754 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:754 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"4ea3796d2daa0281b837631f0ced2d78","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:754 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:754 DBG Write:135 #jrpc 
+:778 DBG Consume:47 #jrpc 
+:778 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:778 DBG Consume:50 Content-Length: 77
+:778 DBG Consume:51 {"jsonrpc":"2.0","id":"4ea3796d2daa0281b837631f0ced2d78","result":[[],100,0]}
+:778 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:778 DBG Consume:53 #jrpc 
+:778 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:778 DBG OnRespond:268 #lsp Received client respond
+:778 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:778 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:778 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:778 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:778 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:778 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:778 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:778 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:585 DBG Consume:47 #jrpc 
+:585 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:585 DBG Consume:50 Content-Length: 64
+:585 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:585 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:585 DBG Consume:53 #jrpc 
+:585 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:585 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:587 DBG Consume:47 #jrpc 
+:587 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:587 DBG Consume:50 Content-Length: 88
+:588 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:588 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:588 DBG Consume:53 #jrpc 
+:588 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:588 DBG GetConfiguration:66 #lsp Make configuration request
+:588 DBG Write:131 #jrpc 
+:588 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:588 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"5b5dc8f7188313f389b9d25ea733d717","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:588 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:588 DBG Write:135 #jrpc 
+:595 DBG Consume:47 #jrpc 
+:595 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:595 DBG Consume:50 Content-Length: 77
+:595 DBG Consume:51 {"jsonrpc":"2.0","id":"5b5dc8f7188313f389b9d25ea733d717","result":[[],100,0]}
+:595 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:595 DBG Consume:53 #jrpc 
+:595 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:595 DBG OnRespond:268 #lsp Received client respond
+:595 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:595 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:595 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:595 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:595 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:595 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:595 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:595 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:823 DBG Consume:47 #jrpc 
+:823 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:823 DBG Consume:50 Content-Length: 64
+:823 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:823 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:823 DBG Consume:53 #jrpc 
+:823 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:823 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:828 DBG Consume:47 #jrpc 
+:829 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:829 DBG Consume:50 Content-Length: 88
+:829 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:829 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:829 DBG Consume:53 #jrpc 
+:829 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:829 DBG GetConfiguration:66 #lsp Make configuration request
+:829 DBG Write:131 #jrpc 
+:829 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:829 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"f01a0c641f43735e9a2bbdc307f0bf3c","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:829 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:829 DBG Write:135 #jrpc 
+:836 DBG Consume:47 #jrpc 
+:836 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:836 DBG Consume:50 Content-Length: 77
+:836 DBG Consume:51 {"jsonrpc":"2.0","id":"f01a0c641f43735e9a2bbdc307f0bf3c","result":[[],100,0]}
+:836 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:836 DBG Consume:53 #jrpc 
+:836 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:836 DBG OnRespond:268 #lsp Received client respond
+:836 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:836 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:836 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:836 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:836 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:836 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:836 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:836 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:461 DBG Consume:47 #jrpc 
+:461 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:461 DBG Consume:50 Content-Length: 64
+:461 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:461 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:461 DBG Consume:53 #jrpc 
+:461 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:461 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:462 DBG Consume:47 #jrpc 
+:462 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:462 DBG Consume:50 Content-Length: 88
+:462 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:462 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:462 DBG Consume:53 #jrpc 
+:462 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:462 DBG GetConfiguration:66 #lsp Make configuration request
+:462 DBG Write:131 #jrpc 
+:462 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:462 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"6e97f9096c97c73c53e2a4cf82ce066e","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:462 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:462 DBG Write:135 #jrpc 
+:470 DBG Consume:47 #jrpc 
+:470 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:470 DBG Consume:50 Content-Length: 77
+:470 DBG Consume:51 {"jsonrpc":"2.0","id":"6e97f9096c97c73c53e2a4cf82ce066e","result":[[],100,0]}
+:470 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:470 DBG Consume:53 #jrpc 
+:470 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:470 DBG OnRespond:268 #lsp Received client respond
+:470 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:470 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:470 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:470 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:470 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:470 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:470 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:470 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:208 DBG Consume:47 #jrpc 
+:208 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:208 DBG Consume:50 Content-Length: 64
+:208 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:208 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:208 DBG Consume:53 #jrpc 
+:208 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:208 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:212 DBG Consume:47 #jrpc 
+:212 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:212 DBG Consume:50 Content-Length: 88
+:212 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:212 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:212 DBG Consume:53 #jrpc 
+:212 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:212 DBG GetConfiguration:66 #lsp Make configuration request
+:212 DBG Write:131 #jrpc 
+:212 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:212 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"e3cd5e2c447bfb3f064619ad39051fb3","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:212 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:212 DBG Write:135 #jrpc 
+:217 DBG Consume:47 #jrpc 
+:217 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:217 DBG Consume:50 Content-Length: 77
+:217 DBG Consume:51 {"jsonrpc":"2.0","id":"e3cd5e2c447bfb3f064619ad39051fb3","result":[[],100,0]}
+:217 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:217 DBG Consume:53 #jrpc 
+:217 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:217 DBG OnRespond:268 #lsp Received client respond
+:217 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:217 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:217 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:217 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:217 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:217 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:217 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:217 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:401 DBG Consume:47 #jrpc 
+:401 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:401 DBG Consume:50 Content-Length: 64
+:401 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:401 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:401 DBG Consume:53 #jrpc 
+:401 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:401 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:403 DBG Consume:47 #jrpc 
+:403 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:403 DBG Consume:50 Content-Length: 88
+:403 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:403 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:403 DBG Consume:53 #jrpc 
+:403 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:403 DBG GetConfiguration:66 #lsp Make configuration request
+:403 DBG Write:131 #jrpc 
+:403 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:403 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"88609f7969beb0024bdd966a3b6c56d7","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:403 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:403 DBG Write:135 #jrpc 
+:409 DBG Consume:47 #jrpc 
+:409 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:409 DBG Consume:50 Content-Length: 77
+:409 DBG Consume:51 {"jsonrpc":"2.0","id":"88609f7969beb0024bdd966a3b6c56d7","result":[[],100,0]}
+:409 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:409 DBG Consume:53 #jrpc 
+:409 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:409 DBG OnRespond:268 #lsp Received client respond
+:409 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:409 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:409 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:409 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:409 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:409 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:409 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:409 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:478 DBG Consume:47 #jrpc 
+:478 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:478 DBG Consume:50 Content-Length: 64
+:478 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:478 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:478 DBG Consume:53 #jrpc 
+:478 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:478 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:479 DBG Consume:47 #jrpc 
+:479 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:479 DBG Consume:50 Content-Length: 88
+:480 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:480 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:480 DBG Consume:53 #jrpc 
+:480 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:480 DBG GetConfiguration:66 #lsp Make configuration request
+:480 DBG Write:131 #jrpc 
+:480 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:480 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"80501303241caf7eb00f25874a9fe60a","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:480 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:480 DBG Write:135 #jrpc 
+:484 DBG Consume:47 #jrpc 
+:485 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:485 DBG Consume:50 Content-Length: 77
+:485 DBG Consume:51 {"jsonrpc":"2.0","id":"80501303241caf7eb00f25874a9fe60a","result":[[],100,0]}
+:485 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:485 DBG Consume:53 #jrpc 
+:485 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:485 DBG OnRespond:268 #lsp Received client respond
+:485 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:485 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:485 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:485 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:485 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:485 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:485 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:485 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:338 DBG Consume:47 #jrpc 
+:338 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:338 DBG Consume:50 Content-Length: 64
+:338 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:338 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:338 DBG Consume:53 #jrpc 
+:338 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:338 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:339 DBG Consume:47 #jrpc 
+:339 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:339 DBG Consume:50 Content-Length: 88
+:339 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:339 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:339 DBG Consume:53 #jrpc 
+:339 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:339 DBG GetConfiguration:66 #lsp Make configuration request
+:339 DBG Write:131 #jrpc 
+:339 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:339 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"838b6ffe0aa5e94f04372b28e1117e9c","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:339 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:339 DBG Write:135 #jrpc 
+:345 DBG Consume:47 #jrpc 
+:345 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:345 DBG Consume:50 Content-Length: 77
+:345 DBG Consume:51 {"jsonrpc":"2.0","id":"838b6ffe0aa5e94f04372b28e1117e9c","result":[[],100,0]}
+:345 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:345 DBG Consume:53 #jrpc 
+:345 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:345 DBG OnRespond:268 #lsp Received client respond
+:345 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:345 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:345 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:345 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:345 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:345 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:345 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:345 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:102 DBG Consume:47 #jrpc 
+:102 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:102 DBG Consume:50 Content-Length: 64
+:102 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:102 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:102 DBG Consume:53 #jrpc 
+:102 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:102 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:104 DBG Consume:47 #jrpc 
+:104 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:104 DBG Consume:50 Content-Length: 88
+:104 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:104 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:104 DBG Consume:53 #jrpc 
+:104 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:104 DBG GetConfiguration:66 #lsp Make configuration request
+:104 DBG Write:131 #jrpc 
+:104 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:104 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"28e183531d9ae721f232beddae0eabdd","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:104 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:104 DBG Write:135 #jrpc 
+:109 DBG Consume:47 #jrpc 
+:109 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:109 DBG Consume:50 Content-Length: 77
+:109 DBG Consume:51 {"jsonrpc":"2.0","id":"28e183531d9ae721f232beddae0eabdd","result":[[],100,0]}
+:110 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:110 DBG Consume:53 #jrpc 
+:110 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:110 DBG OnRespond:268 #lsp Received client respond
+:110 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:110 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:110 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:110 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:110 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:110 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:110 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:110 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:485 DBG Consume:47 #jrpc 
+:485 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:485 DBG Consume:50 Content-Length: 64
+:486 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:486 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:486 DBG Consume:53 #jrpc 
+:486 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:486 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:488 DBG Consume:47 #jrpc 
+:488 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:488 DBG Consume:50 Content-Length: 88
+:488 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:488 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:488 DBG Consume:53 #jrpc 
+:488 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:489 DBG GetConfiguration:66 #lsp Make configuration request
+:489 DBG Write:131 #jrpc 
+:489 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:489 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"c6279b08d80dd3f079a6e4b169b6d6a6","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:489 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:489 DBG Write:135 #jrpc 
+:494 DBG Consume:47 #jrpc 
+:494 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:494 DBG Consume:50 Content-Length: 77
+:494 DBG Consume:51 {"jsonrpc":"2.0","id":"c6279b08d80dd3f079a6e4b169b6d6a6","result":[[],100,0]}
+:494 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:494 DBG Consume:53 #jrpc 
+:494 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:494 DBG OnRespond:268 #lsp Received client respond
+:494 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:494 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:495 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:495 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:495 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:495 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:495 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:495 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:820 DBG Consume:47 #jrpc 
+:820 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:820 DBG Consume:50 Content-Length: 64
+:820 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:821 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:821 DBG Consume:53 #jrpc 
+:821 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:821 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:823 DBG Consume:47 #jrpc 
+:823 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:823 DBG Consume:50 Content-Length: 88
+:823 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:823 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:823 DBG Consume:53 #jrpc 
+:823 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:823 DBG GetConfiguration:66 #lsp Make configuration request
+:823 DBG Write:131 #jrpc 
+:823 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:823 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"6d51b6b7a7546061a15f0fe7cda40b57","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:823 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:823 DBG Write:135 #jrpc 
+:829 DBG Consume:47 #jrpc 
+:829 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:829 DBG Consume:50 Content-Length: 77
+:829 DBG Consume:51 {"jsonrpc":"2.0","id":"6d51b6b7a7546061a15f0fe7cda40b57","result":[[],100,0]}
+:830 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:830 DBG Consume:53 #jrpc 
+:830 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:830 DBG OnRespond:268 #lsp Received client respond
+:830 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:830 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:830 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:830 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:830 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:830 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:830 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:830 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:411 DBG Consume:47 #jrpc 
+:411 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:411 DBG Consume:50 Content-Length: 64
+:411 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:411 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:411 DBG Consume:53 #jrpc 
+:412 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:412 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:417 DBG Consume:47 #jrpc 
+:417 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:417 DBG Consume:50 Content-Length: 88
+:418 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:418 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:418 DBG Consume:53 #jrpc 
+:418 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:418 DBG GetConfiguration:66 #lsp Make configuration request
+:418 DBG Write:131 #jrpc 
+:418 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:418 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"3d6e587ca4f46c3a85663ac6b78ee651","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:418 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:418 DBG Write:135 #jrpc 
+:424 DBG Consume:47 #jrpc 
+:424 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:424 DBG Consume:50 Content-Length: 77
+:424 DBG Consume:51 {"jsonrpc":"2.0","id":"3d6e587ca4f46c3a85663ac6b78ee651","result":[[],100,0]}
+:424 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:424 DBG Consume:53 #jrpc 
+:424 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:424 DBG OnRespond:268 #lsp Received client respond
+:424 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:424 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:424 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:424 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:424 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:424 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:424 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:424 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:666 DBG Consume:47 #jrpc 
+:666 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:666 DBG Consume:50 Content-Length: 64
+:666 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:666 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:666 DBG Consume:53 #jrpc 
+:666 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:666 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:667 DBG Consume:47 #jrpc 
+:667 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:667 DBG Consume:50 Content-Length: 88
+:667 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:667 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:667 DBG Consume:53 #jrpc 
+:667 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:667 DBG GetConfiguration:66 #lsp Make configuration request
+:667 DBG Write:131 #jrpc 
+:667 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:667 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"801f90b9f8c9d00beee11c8f7808ede8","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:667 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:667 DBG Write:135 #jrpc 
+:674 DBG Consume:47 #jrpc 
+:674 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:674 DBG Consume:50 Content-Length: 77
+:674 DBG Consume:51 {"jsonrpc":"2.0","id":"801f90b9f8c9d00beee11c8f7808ede8","result":[[],100,0]}
+:674 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:674 DBG Consume:53 #jrpc 
+:674 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:674 DBG OnRespond:268 #lsp Received client respond
+:674 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:674 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:674 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:674 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:674 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:674 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:674 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:674 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:466 DBG Consume:47 #jrpc 
+:466 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:466 DBG Consume:50 Content-Length: 64
+:466 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:466 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:466 DBG Consume:53 #jrpc 
+:466 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:466 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:467 DBG Consume:47 #jrpc 
+:467 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:467 DBG Consume:50 Content-Length: 88
+:467 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:467 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:467 DBG Consume:53 #jrpc 
+:467 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:467 DBG GetConfiguration:66 #lsp Make configuration request
+:467 DBG Write:131 #jrpc 
+:467 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:467 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"2c8867251f6d2d0f225eb9eb64476987","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:467 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:467 DBG Write:135 #jrpc 
+:480 DBG Consume:47 #jrpc 
+:480 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:480 DBG Consume:50 Content-Length: 77
+:480 DBG Consume:51 {"jsonrpc":"2.0","id":"2c8867251f6d2d0f225eb9eb64476987","result":[[],100,0]}
+:480 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:480 DBG Consume:53 #jrpc 
+:480 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:481 DBG OnRespond:268 #lsp Received client respond
+:481 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:481 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:481 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:481 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:481 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:481 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:481 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:481 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:168 DBG Consume:47 #jrpc 
+:168 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:168 DBG Consume:50 Content-Length: 64
+:168 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:168 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:168 DBG Consume:53 #jrpc 
+:168 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:168 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:169 DBG Consume:47 #jrpc 
+:169 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:169 DBG Consume:50 Content-Length: 88
+:169 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:169 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:169 DBG Consume:53 #jrpc 
+:169 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:169 DBG GetConfiguration:66 #lsp Make configuration request
+:169 DBG Write:131 #jrpc 
+:169 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:169 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"79f33c811f7b520d8b5bc5d295baf940","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:169 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:169 DBG Write:135 #jrpc 
+:180 DBG Consume:47 #jrpc 
+:180 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:180 DBG Consume:50 Content-Length: 77
+:180 DBG Consume:51 {"jsonrpc":"2.0","id":"79f33c811f7b520d8b5bc5d295baf940","result":[[],100,0]}
+:180 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:180 DBG Consume:53 #jrpc 
+:180 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:180 DBG OnRespond:268 #lsp Received client respond
+:180 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:180 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:180 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:180 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:180 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:180 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:180 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:180 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:242 DBG Consume:47 #jrpc 
+:242 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:242 DBG Consume:50 Content-Length: 64
+:242 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:242 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:242 DBG Consume:53 #jrpc 
+:242 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:242 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:244 DBG Consume:47 #jrpc 
+:244 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:244 DBG Consume:50 Content-Length: 88
+:244 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:244 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:244 DBG Consume:53 #jrpc 
+:244 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:244 DBG GetConfiguration:66 #lsp Make configuration request
+:244 DBG Write:131 #jrpc 
+:244 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:244 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"b9c3273910a6f5e80f991a460d3aed74","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:244 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:244 DBG Write:135 #jrpc 
+:250 DBG Consume:47 #jrpc 
+:250 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:250 DBG Consume:50 Content-Length: 77
+:250 DBG Consume:51 {"jsonrpc":"2.0","id":"b9c3273910a6f5e80f991a460d3aed74","result":[[],100,0]}
+:250 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:250 DBG Consume:53 #jrpc 
+:250 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:250 DBG OnRespond:268 #lsp Received client respond
+:250 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:250 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:250 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:250 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:250 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:250 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:250 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:250 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:302 DBG Consume:47 #jrpc 
+:302 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:302 DBG Consume:50 Content-Length: 64
+:302 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:302 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:302 DBG Consume:53 #jrpc 
+:302 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:302 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:304 DBG Consume:47 #jrpc 
+:305 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:305 DBG Consume:50 Content-Length: 88
+:305 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:305 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:305 DBG Consume:53 #jrpc 
+:305 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:305 DBG GetConfiguration:66 #lsp Make configuration request
+:305 DBG Write:131 #jrpc 
+:305 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:305 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"4dcc319b33babaced30328f6acda24dc","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:305 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:305 DBG Write:135 #jrpc 
+:332 DBG Consume:47 #jrpc 
+:332 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:332 DBG Consume:50 Content-Length: 77
+:332 DBG Consume:51 {"jsonrpc":"2.0","id":"4dcc319b33babaced30328f6acda24dc","result":[[],100,0]}
+:332 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:332 DBG Consume:53 #jrpc 
+:332 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:332 DBG OnRespond:268 #lsp Received client respond
+:332 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:332 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:332 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:332 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:332 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:332 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:332 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:332 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:587 DBG Consume:47 #jrpc 
+:587 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:587 DBG Consume:50 Content-Length: 64
+:587 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:587 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:587 DBG Consume:53 #jrpc 
+:587 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:587 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:607 DBG Consume:47 #jrpc 
+:607 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:607 DBG Consume:50 Content-Length: 88
+:607 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:607 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:607 DBG Consume:53 #jrpc 
+:607 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:607 DBG GetConfiguration:66 #lsp Make configuration request
+:607 DBG Write:131 #jrpc 
+:607 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:607 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"3afdee98948867e736dacbc0680ef723","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:607 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:607 DBG Write:135 #jrpc 
+:624 DBG Consume:47 #jrpc 
+:624 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:624 DBG Consume:50 Content-Length: 77
+:624 DBG Consume:51 {"jsonrpc":"2.0","id":"3afdee98948867e736dacbc0680ef723","result":[[],100,0]}
+:624 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:624 DBG Consume:53 #jrpc 
+:624 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:624 DBG OnRespond:268 #lsp Received client respond
+:624 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:624 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:624 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:624 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:624 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:624 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:624 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:624 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:964 DBG Consume:47 #jrpc 
+:964 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:964 DBG Consume:50 Content-Length: 64
+:964 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:964 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:964 DBG Consume:53 #jrpc 
+:964 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:964 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:964 DBG Consume:47 #jrpc 
+:964 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:964 DBG Consume:50 Content-Length: 88
+:964 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:964 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:964 DBG Consume:53 #jrpc 
+:964 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:964 DBG GetConfiguration:66 #lsp Make configuration request
+:964 DBG Write:131 #jrpc 
+:964 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:964 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"76f44b77a3dc8524b0b0785acf73bd70","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:964 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:964 DBG Write:135 #jrpc 
+:975 DBG Consume:47 #jrpc 
+:975 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:975 DBG Consume:50 Content-Length: 77
+:975 DBG Consume:51 {"jsonrpc":"2.0","id":"76f44b77a3dc8524b0b0785acf73bd70","result":[[],100,0]}
+:975 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:975 DBG Consume:53 #jrpc 
+:975 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:975 DBG OnRespond:268 #lsp Received client respond
+:975 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:975 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:975 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:975 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:975 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:975 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:975 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:975 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:208 DBG Consume:47 #jrpc 
+:208 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:208 DBG Consume:50 Content-Length: 64
+:208 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:208 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:208 DBG Consume:53 #jrpc 
+:208 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:208 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:217 DBG Consume:47 #jrpc 
+:217 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:217 DBG Consume:50 Content-Length: 88
+:217 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:217 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:217 DBG Consume:53 #jrpc 
+:217 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:217 DBG GetConfiguration:66 #lsp Make configuration request
+:217 DBG Write:131 #jrpc 
+:217 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:217 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"a3678fb7e3624f414a7ac0c3fcce48e4","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:217 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:217 DBG Write:135 #jrpc 
+:235 DBG Consume:47 #jrpc 
+:235 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:235 DBG Consume:50 Content-Length: 77
+:235 DBG Consume:51 {"jsonrpc":"2.0","id":"a3678fb7e3624f414a7ac0c3fcce48e4","result":[[],100,0]}
+:235 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:235 DBG Consume:53 #jrpc 
+:235 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:235 DBG OnRespond:268 #lsp Received client respond
+:235 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:235 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:235 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:235 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:235 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:235 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:235 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:235 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:437 DBG Consume:47 #jrpc 
+:437 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:437 DBG Consume:50 Content-Length: 64
+:437 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:437 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:437 DBG Consume:53 #jrpc 
+:437 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:437 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:463 DBG Consume:47 #jrpc 
+:463 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:463 DBG Consume:50 Content-Length: 88
+:463 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:463 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:463 DBG Consume:53 #jrpc 
+:463 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:463 DBG GetConfiguration:66 #lsp Make configuration request
+:463 DBG Write:131 #jrpc 
+:463 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:463 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"fdc9ec325f87e599e4ad69fe7a9fd8b1","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:463 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:463 DBG Write:135 #jrpc 
+:505 DBG Consume:47 #jrpc 
+:505 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:505 DBG Consume:50 Content-Length: 77
+:505 DBG Consume:51 {"jsonrpc":"2.0","id":"fdc9ec325f87e599e4ad69fe7a9fd8b1","result":[[],100,0]}
+:505 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:505 DBG Consume:53 #jrpc 
+:505 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:505 DBG OnRespond:268 #lsp Received client respond
+:505 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:505 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:505 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:505 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:505 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:505 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:505 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:505 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+
+----------------------------------------------------------------
+--------------------2023-06-01 16:46:18--------------------
+----------------------------------------------------------------
+
+:885 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:911 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:911 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:911 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:911 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:911 INF Run:297 Setting up...
+:911 TRE RegisterMethodCallback:22 #jrpc Set callback for method: initialize
+:911 TRE RegisterMethodCallback:22 #jrpc Set callback for method: initialized
+:911 TRE RegisterMethodCallback:22 #jrpc Set callback for method: shutdown
+:911 TRE RegisterMethodCallback:22 #jrpc Set callback for method: exit
+:911 TRE RegisterMethodCallback:22 #jrpc Set callback for method: textDocument/didOpen
+:911 TRE RegisterMethodCallback:22 #jrpc Set callback for method: textDocument/didChange
+:911 TRE RegisterMethodCallback:22 #jrpc Set callback for method: workspace/didChangeConfiguration
+:911 TRE RegisterInputCallback:28 #jrpc Set callback for client responds
+:911 TRE RegisterOutputCallback:34 #jrpc Set output callback
+:911 INF Run:346 Listening...
+:912 DBG Consume:47 #jrpc 
+:912 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:912 DBG Consume:50 Content-Length: 5997
+:912 DBG Consume:51 {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":55358,"clientInfo":{"name":"Visual Studio Code","version":"1.78.2"},"locale":"en","rootPath":"/home/pawelm/Semestr_6/Przetwarzanie_rownoległe/projekt","rootUri":"file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"],"failureHandling":"textOnlyTransactional","normalizesLineEndings":true,"changeAnnotationSupport":{"groupsOnLabel":true}},"configuration":true,"didChangeWatchedFiles":{"dynamicRegistration":true,"relativePatternSupport":true},"symbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"tagSupport":{"valueSet":[1]},"resolveSupport":{"properties":["location.range"]}},"codeLens":{"refreshSupport":true},"executeCommand":{"dynamicRegistration":true},"didChangeConfiguration":{"dynamicRegistration":true},"workspaceFolders":true,"semanticTokens":{"refreshSupport":true},"fileOperations":{"dynamicRegistration":true,"didCreate":true,"didRename":true,"didDelete":true,"willCreate":true,"willRename":true,"willDelete":true},"inlineValue":{"refreshSupport":true},"inlayHint":{"refreshSupport":true},"diagnostics":{"refreshSupport":true}},"textDocument":{"publishDiagnostics":{"relatedInformation":true,"versionSupport":false,"tagSupport":{"valueSet":[1,2]},"codeDescriptionSupport":true,"dataSupport":true},"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"contextSupport":true,"completionItem":{"snippetSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"deprecatedSupport":true,"preselectSupport":true,"tagSupport":{"valueSet":[1]},"insertReplaceSupport":true,"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]},"labelDetailsSupport":true},"insertTextMode":2,"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]},"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"dynamicRegistration":true,"contentFormat":["markdown","plaintext"]},"signatureHelp":{"dynamicRegistration":true,"signatureInformation":{"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true},"activeParameterSupport":true},"contextSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true,"tagSupport":{"valueSet":[1]},"labelSupport":true},"codeAction":{"dynamicRegistration":true,"isPreferredSupport":true,"disabledSupport":true,"dataSupport":true,"resolveSupport":{"properties":["edit"]},"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"honorsChangeAnnotations":false},"codeLens":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true,"prepareSupportDefaultBehavior":1,"honorsChangeAnnotations":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"colorProvider":{"dynamicRegistration":true},"foldingRange":{"dynamicRegistration":true,"rangeLimit":5000,"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"declaration":{"dynamicRegistration":true,"linkSupport":true},"selectionRange":{"dynamicRegistration":true},"callHierarchy":{"dynamicRegistration":true},"semanticTokens":{"dynamicRegistration":true,"tokenTypes":["namespace","type","class","enum","interface","struct","typeParameter","parameter","variable","property","enumMember","event","function","method","macro","keyword","modifier","comment","string","number","regexp","operator","decorator"],"tokenModifiers":["declaration","definition","readonly","static","deprecated","abstract","async","modification","documentation","defaultLibrary"],"formats":["relative"],"requests":{"range":true,"full":{"delta":true}},"multilineTokenSupport":false,"overlappingTokenSupport":false,"serverCancelSupport":true,"augmentsSyntaxTokens":true},"linkedEditingRange":{"dynamicRegistration":true},"typeHierarchy":{"dynamicRegistration":true},"inlineValue":{"dynamicRegistration":true},"inlayHint":{"dynamicRegistration":true,"resolveSupport":{"properties":["tooltip","textEdits","label.tooltip","label.location","label.command"]}},"diagnostic":{"dynamicRegistration":true,"relatedDocumentSupport":false}},"window":{"showMessage":{"messageActionItem":{"additionalPropertiesSupport":true}},"showDocument":{"support":true},"workDoneProgress":true},"general":{"staleRequestSupport":{"cancel":true,"retryOnContentModified":["textDocument/semanticTokens/full","textDocument/semanticTokens/range","textDocument/semanticTokens/full/delta"]},"regularExpressions":{"engine":"ECMAScript","version":"ES2020"},"markdown":{"parser":"marked","version":"1.1.0"},"positionEncodings":["utf-16"]},"notebookDocument":{"synchronization":{"dynamicRegistration":true,"executionSummarySupport":true}}},"initializationOptions":{"configuration":{"buildOptions":[],"deviceID":0,"maxNumberOfProblems":100}},"trace":"off","workspaceFolders":[{"uri":"file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt","name":"projekt"}]}}
+:912 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:912 DBG Consume:53 #jrpc 
+:912 DBG OnInitialize:184 #jrpc Tracing options: is verbose: no, is on: no
+:912 DBG FireMethodCallback:267 #jrpc Calling handler for method: initialize
+:912 DBG OnInitialize:88 #lsp Received 'initialize' request
+:912 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:912 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:912 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:912 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:912 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:912 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:912 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:912 DBG Write:131 #jrpc 
+:912 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:912 DBG Write:133 Content-Length: 157
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":0,"result":{"capabilities":{"textDocumentSync":{"openClose":true,"change":1,"willSave":false,"willSaveWaitUntil":false,"save":false}}},"jsonrpc":"2.0"}
+:912 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:912 DBG Write:135 #jrpc 
+:914 DBG Consume:47 #jrpc 
+:914 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:914 DBG Consume:50 Content-Length: 52
+:914 DBG Consume:51 {"jsonrpc":"2.0","method":"initialized","params":{}}
+:914 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:914 DBG Consume:53 #jrpc 
+:914 DBG FireMethodCallback:267 #jrpc Calling handler for method: initialized
+:914 DBG OnInitialized:145 #lsp Received 'initialized' message
+:915 DBG Write:131 #jrpc 
+:915 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:915 DBG Write:133 Content-Length: 209
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"26c2808bd8ab379b6a09805a18a9dab8","method":"client/registerCapability","params":{"registrations":[{"id":"ed63ca3684125335e7f8fffeb475a2c1","method":"workspace/didChangeConfiguration"}]},"jsonrpc":"2.0"}
+:915 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:915 DBG Write:135 #jrpc 
+:915 DBG Consume:47 #jrpc 
+:915 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:916 DBG Consume:50 Content-Length: 71
+:916 DBG Consume:51 {"jsonrpc":"2.0","id":"26c2808bd8ab379b6a09805a18a9dab8","result":null}
+:916 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:916 DBG Consume:53 #jrpc 
+:916 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:916 DBG OnRespond:268 #lsp Received client respond
+:978 DBG Consume:47 #jrpc 
+:978 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:978 DBG Consume:50 Content-Length: 64
+:978 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:978 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:978 DBG Consume:53 #jrpc 
+:978 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:978 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:980 DBG Consume:47 #jrpc 
+:981 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:981 DBG Consume:50 Content-Length: 88
+:981 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:981 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:981 DBG Consume:53 #jrpc 
+:981 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:981 DBG GetConfiguration:66 #lsp Make configuration request
+:981 DBG Write:131 #jrpc 
+:981 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:981 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"22ba9ab2271c94030464857484d87d67","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:981 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:981 DBG Write:135 #jrpc 
+:192 DBG Consume:47 #jrpc 
+:192 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:192 DBG Consume:50 Content-Length: 77
+:192 DBG Consume:51 {"jsonrpc":"2.0","id":"22ba9ab2271c94030464857484d87d67","result":[[],100,0]}
+:192 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:192 DBG Consume:53 #jrpc 
+:192 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:192 DBG OnRespond:268 #lsp Received client respond
+:192 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:192 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:192 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:192 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:192 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:192 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:192 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:192 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:192 DBG Consume:47 #jrpc 
+:192 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:192 DBG Consume:50 Content-Length: 64
+:192 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:192 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:192 DBG Consume:53 #jrpc 
+:192 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:192 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:198 DBG Consume:47 #jrpc 
+:198 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:198 DBG Consume:50 Content-Length: 88
+:198 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:198 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:199 DBG Consume:53 #jrpc 
+:199 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:199 DBG GetConfiguration:66 #lsp Make configuration request
+:199 DBG Write:131 #jrpc 
+:199 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:199 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"9b810bea725611e7cbdee6b4d1660e5c","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:199 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:199 DBG Write:135 #jrpc 
+:245 DBG Consume:47 #jrpc 
+:245 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:245 DBG Consume:50 Content-Length: 77
+:245 DBG Consume:51 {"jsonrpc":"2.0","id":"9b810bea725611e7cbdee6b4d1660e5c","result":[[],100,0]}
+:245 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:245 DBG Consume:53 #jrpc 
+:245 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:245 DBG OnRespond:268 #lsp Received client respond
+:245 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:245 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:245 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:245 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:245 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:245 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:245 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:245 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:159 DBG Consume:47 #jrpc 
+:159 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:159 DBG Consume:50 Content-Length: 64
+:159 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:159 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:159 DBG Consume:53 #jrpc 
+:159 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:159 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:208 DBG Consume:47 #jrpc 
+:208 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:208 DBG Consume:50 Content-Length: 88
+:208 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:208 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:208 DBG Consume:53 #jrpc 
+:208 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:208 DBG GetConfiguration:66 #lsp Make configuration request
+:208 DBG Write:131 #jrpc 
+:208 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:208 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"298e53334b82aa8d4b210b6d0bb4b67f","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:208 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:208 DBG Write:135 #jrpc 
+:343 DBG Consume:47 #jrpc 
+:343 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:343 DBG Consume:50 Content-Length: 77
+:343 DBG Consume:51 {"jsonrpc":"2.0","id":"298e53334b82aa8d4b210b6d0bb4b67f","result":[[],100,0]}
+:343 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:343 DBG Consume:53 #jrpc 
+:343 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:343 DBG OnRespond:268 #lsp Received client respond
+:343 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:343 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:343 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:343 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:343 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:343 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:343 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:343 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:685 DBG Consume:47 #jrpc 
+:685 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:685 DBG Consume:50 Content-Length: 64
+:685 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:685 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:685 DBG Consume:53 #jrpc 
+:685 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:685 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:742 DBG Consume:47 #jrpc 
+:742 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:742 DBG Consume:50 Content-Length: 88
+:742 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:742 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:742 DBG Consume:53 #jrpc 
+:742 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:742 DBG GetConfiguration:66 #lsp Make configuration request
+:742 DBG Write:131 #jrpc 
+:742 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:742 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"c7ea2a7382ba85f890539f8424ee7dd3","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:742 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:742 DBG Write:135 #jrpc 
+:742 DBG Consume:47 #jrpc 
+:742 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:742 DBG Consume:50 Content-Length: 64
+:742 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:742 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:742 DBG Consume:53 #jrpc 
+:742 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:742 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:816 DBG Consume:47 #jrpc 
+:816 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:816 DBG Consume:50 Content-Length: 88
+:816 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:816 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:816 DBG Consume:53 #jrpc 
+:816 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:816 DBG GetConfiguration:66 #lsp Make configuration request
+:816 DBG Write:131 #jrpc 
+:816 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:816 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"9126cf252d56081fbc5c2a0fb50f1977","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:816 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:817 DBG Write:135 #jrpc 
+:879 DBG Consume:47 #jrpc 
+:879 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:879 DBG Consume:50 Content-Length: 77
+:879 DBG Consume:51 {"jsonrpc":"2.0","id":"c7ea2a7382ba85f890539f8424ee7dd3","result":[[],100,0]}
+:879 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:879 DBG Consume:53 #jrpc 
+:879 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:879 DBG OnRespond:268 #lsp Received client respond
+:879 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:879 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:879 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:879 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:879 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:879 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:879 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:879 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:943 DBG Consume:47 #jrpc 
+:943 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:943 DBG Consume:50 Content-Length: 77
+:943 DBG Consume:51 {"jsonrpc":"2.0","id":"9126cf252d56081fbc5c2a0fb50f1977","result":[[],100,0]}
+:943 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:943 DBG Consume:53 #jrpc 
+:943 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:943 DBG OnRespond:268 #lsp Received client respond
+:943 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:943 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:943 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:943 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:943 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:943 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:943 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:943 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:805 DBG Consume:47 #jrpc 
+:805 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:805 DBG Consume:50 Content-Length: 64
+:805 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:805 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:805 DBG Consume:53 #jrpc 
+:805 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:805 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:815 DBG Consume:47 #jrpc 
+:815 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:815 DBG Consume:50 Content-Length: 88
+:815 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:815 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:815 DBG Consume:53 #jrpc 
+:815 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:815 DBG GetConfiguration:66 #lsp Make configuration request
+:815 DBG Write:131 #jrpc 
+:815 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:815 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"b9e2df3e663b7fa5edf3f4279cc95217","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:815 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:815 DBG Write:135 #jrpc 
+:853 DBG Consume:47 #jrpc 
+:853 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:853 DBG Consume:50 Content-Length: 77
+:853 DBG Consume:51 {"jsonrpc":"2.0","id":"b9e2df3e663b7fa5edf3f4279cc95217","result":[[],100,0]}
+:853 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:853 DBG Consume:53 #jrpc 
+:853 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:853 DBG OnRespond:268 #lsp Received client respond
+:853 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:853 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:853 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:853 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:853 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:853 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:853 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:853 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:188 DBG Consume:47 #jrpc 
+:188 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:188 DBG Consume:50 Content-Length: 446
+:188 DBG Consume:51 {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/kernel.cl","languageId":"opencl","version":1,"text":"__kernel void elementwise_add(__global const float* inputA, __global const float* inputB, __global float* output, const int size) {\n    int i = get_global_id(0);\n    if (i < size) {\n        output[i] = inputA[i] + inputB[i];\n    }\n}\n"}}}
+:188 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:188 DBG Consume:53 #jrpc 
+:188 DBG FireMethodCallback:267 #jrpc Calling handler for method: textDocument/didOpen
+:188 DBG OnTextOpen:198 #lsp Received 'textOpen' message
+:188 DBG BuildDiagnosticsRespond:176 Converted uri 'file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/kernel.cl' to path '/home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/kernel.cl'
+:188 DBG Get:247 #diagnostics Getting diagnostics...
+:188 DBG BuildSource:173 #diagnostics Building program with options: 
+:257 TRE Get:259 #diagnostics BuildLog:
+
+:257 DBG Write:131 #jrpc 
+:257 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:257 DBG Write:133 Content-Length: 174
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"method":"textDocument/publishDiagnostics","params":{"uri":"file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/kernel.cl","diagnostics":[]},"jsonrpc":"2.0"}
+:257 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:257 DBG Write:135 #jrpc 
+:597 DBG Consume:47 #jrpc 
+:597 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:597 DBG Consume:50 Content-Length: 164
+:597 DBG Consume:51 {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/kernel.cl"}}}
+:597 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:597 DBG Consume:53 #jrpc 
+:597 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: yes
+:597 TRE WriteError:279 #jrpc Reporting error: Method 'textDocument/didClose' is not supported. (-32601)
+:597 DBG Write:131 #jrpc 
+:597 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:597 DBG Write:133 Content-Length: 102
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"error":{"code":-32601,"message":"Method 'textDocument/didClose' is not supported."},"jsonrpc":"2.0"}
+:597 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:597 DBG Write:135 #jrpc 
+:627 DBG Consume:47 #jrpc 
+:627 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:627 DBG Consume:50 Content-Length: 457
+:627 DBG Consume:51 {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/openclTest/kernel.cl","languageId":"opencl","version":1,"text":"__kernel void elementwise_add(__global const float* inputA, __global const float* inputB, __global float* output, const int size) {\n    int i = get_global_id(0);\n    if (i < size) {\n        output[i] = inputA[i] + inputB[i];\n    }\n}\n"}}}
+:627 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:627 DBG Consume:53 #jrpc 
+:627 DBG FireMethodCallback:267 #jrpc Calling handler for method: textDocument/didOpen
+:627 DBG OnTextOpen:198 #lsp Received 'textOpen' message
+:627 DBG BuildDiagnosticsRespond:176 Converted uri 'file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/openclTest/kernel.cl' to path '/home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/openclTest/kernel.cl'
+:627 DBG Get:247 #diagnostics Getting diagnostics...
+:627 DBG BuildSource:173 #diagnostics Building program with options: 
+:724 TRE Get:259 #diagnostics BuildLog:
+
+:724 DBG Write:131 #jrpc 
+:724 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:724 DBG Write:133 Content-Length: 185
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"method":"textDocument/publishDiagnostics","params":{"uri":"file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/openclTest/kernel.cl","diagnostics":[]},"jsonrpc":"2.0"}
+:724 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:724 DBG Write:135 #jrpc 
+:606 DBG Consume:47 #jrpc 
+:606 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:606 DBG Consume:50 Content-Length: 64
+:606 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:606 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:606 DBG Consume:53 #jrpc 
+:606 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:606 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:608 DBG Consume:47 #jrpc 
+:608 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:608 DBG Consume:50 Content-Length: 88
+:608 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:608 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:608 DBG Consume:53 #jrpc 
+:608 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:608 DBG GetConfiguration:66 #lsp Make configuration request
+:608 DBG Write:131 #jrpc 
+:608 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:608 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"631918db7abd3eaebabfc160fa3ee843","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:608 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:608 DBG Write:135 #jrpc 
+:615 DBG Consume:47 #jrpc 
+:615 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:615 DBG Consume:50 Content-Length: 77
+:615 DBG Consume:51 {"jsonrpc":"2.0","id":"631918db7abd3eaebabfc160fa3ee843","result":[[],100,0]}
+:615 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:615 DBG Consume:53 #jrpc 
+:615 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:615 DBG OnRespond:268 #lsp Received client respond
+:615 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:615 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:615 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:615 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:615 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:615 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:615 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:615 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:050 DBG Consume:47 #jrpc 
+:050 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:050 DBG Consume:50 Content-Length: 64
+:050 DBG Consume:51 {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+:050 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:050 DBG Consume:53 #jrpc 
+:050 DBG OnTracingChanged:204 #jrpc Tracing options were changed: is verboseno, is on: no
+:050 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: no
+:050 DBG Consume:47 #jrpc 
+:050 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:050 DBG Consume:50 Content-Length: 88
+:050 DBG Consume:51 {"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":null}}
+:050 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:050 DBG Consume:53 #jrpc 
+:050 DBG FireMethodCallback:267 #jrpc Calling handler for method: workspace/didChangeConfiguration
+:050 DBG GetConfiguration:66 #lsp Make configuration request
+:051 DBG Write:131 #jrpc 
+:051 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:051 DBG Write:133 Content-Length: 239
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"id":"ad57f928e081e328f34c930f140fdf07","method":"workspace/configuration","params":{"items":[{"section":"OpenCL.server.buildOptions"},{"section":"OpenCL.server.maxNumberOfProblems"},{"section":"OpenCL.server.deviceID"}]},"jsonrpc":"2.0"}
+:051 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:051 DBG Write:135 #jrpc 
+:054 DBG Consume:47 #jrpc 
+:054 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:054 DBG Consume:50 Content-Length: 77
+:054 DBG Consume:51 {"jsonrpc":"2.0","id":"ad57f928e081e328f34c930f140fdf07","result":[[],100,0]}
+:054 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:054 DBG Consume:53 #jrpc 
+:054 DBG FireRespondCallback:239 #jrpc Calling handler for a client respond
+:054 DBG OnRespond:268 #lsp Received client respond
+:054 DBG OnConfiguration:235 #lsp Received 'configuration' respond
+:054 DBG SetBuildOptions:275 #diagnostics Set build options: 
+:054 DBG SetMaxProblemsCount:285 #diagnostics Set max number of problems: 100
+:054 TRE SetOpenCLDevice:89 #diagnostics Selecting OpenCL platform...
+:054 INF SetOpenCLDevice:100 #diagnostics Found OpenCL platforms: 1
+:054 INF SetOpenCLDevice:119 #diagnostics Found OpenCL devices: 1
+:054 TRE SetOpenCLDevice:126 #diagnostics Selecting OpenCL device (total:1)...
+:054 INF SetOpenCLDevice:158 #diagnostics Selected OpenCL device: name: gfx90c:xnack-; type: 4; version: OpenCL 2.0 ; vendor: Advanced Micro Devices, Inc.; vendorID: 4098; driverVersion: 3513.0 (HSA1.1,LC)
+:345 DBG Consume:47 #jrpc 
+:345 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:345 DBG Consume:50 Content-Length: 175
+:345 DBG Consume:51 {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/openclTest/kernel.cl"}}}
+:345 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:345 DBG Consume:53 #jrpc 
+:345 DBG FireMethodCallback:252 #jrpc Got request: no, respond is required: yes
+:345 TRE WriteError:279 #jrpc Reporting error: Method 'textDocument/didClose' is not supported. (-32601)
+:345 DBG Write:131 #jrpc 
+:345 DBG Write:132 #jrpc <<<<<<<<<<<<<<<<
+:345 DBG Write:133 Content-Length: 102
+Content-Type: application/vscode-jsonrpc;charset=utf-8
+
+{"error":{"code":-32601,"message":"Method 'textDocument/didClose' is not supported."},"jsonrpc":"2.0"}
+:345 DBG Write:134 #jrpc <<<<<<<<<<<<<<<<
+:345 DBG Write:135 #jrpc 
+:380 DBG Consume:47 #jrpc 
+:380 DBG Consume:48 #jrpc >>>>>>>>>>>>>>>>
+:380 DBG Consume:50 Content-Length: 207
+:380 DBG Consume:51 {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/kernel.cl","languageId":"opencl","version":1,"text":""}}}
+:380 DBG Consume:52 #jrpc >>>>>>>>>>>>>>>>
+:380 DBG Consume:53 #jrpc 
+:380 DBG FireMethodCallback:267 #jrpc Calling handler for method: textDocument/didOpen
+:380 DBG OnTextOpen:198 #lsp Received 'textOpen' message
+:380 DBG BuildDiagnosticsRespond:176 Converted uri 'file:///home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/kernel.cl' to path '/home/pawelm/Semestr_6/Przetwarzanie_rownoleg%C5%82e/projekt/kernel.cl'
+:380 DBG Get:247 #diagnostics Getting diagnostics...
+:380 DBG BuildSource:173 #diagnostics Building program with options: 
+:381 ERR BuildSource:181 #diagnostics Failed to build program, error: clCreateProgramWithSource (-30)
+:381 ERR BuildSource:193 #diagnostics Failed get build info, error: clGetProgramBuildInfo (-44)

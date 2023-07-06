@@ -1,0 +1,15 @@
+./parallel_cpu  0,04s user 0,01s system 363% cpu 0,013 total
+./output/main  0,01s user 0,00s system 97% cpu 0,008 total
+
+gcc parallel_cpu.c -fopenmp -o parallel_cpu 
+gcc main.c -o main  
+
+./main  0,86s user 0,00s system 99% cpu 0,863 total
+
+./parallel_cpu  2,22s user 0,02s system 363% cpu 0,616 total
+
+
+time ./main
+./main  0,86s user 0,00s system 99% cpu 0,858 total
+time ./parallel_cpu
+./parallel_cpu  1,22s user 0,00s system 477% cpu 0,255 total

@@ -1,0 +1,11 @@
+nie udało się rozwiązać zależności:
+- usunięcie opencl-amd uszkadza zależności 'rocm-device-libs' wymagane przez comgr
+- usunięcie opencl-amd uszkadza zależności 'rocm-core' wymagane przez rocm-opencl-sdk
+- usunięcie opencl-amd uszkadza zależności 'hsa-rocr' wymagane przez rocm-opencl-sdk
+- usunięcie opencl-amd uszkadza zależności 'rocm-opencl-runtime' wymagane przez rocm-opencl-sdk
+
+
+100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500
+
+
+
